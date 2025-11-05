@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+
+.dashboard-contain {
+    height: calc(100vh - 115px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    .dashboard-item {
+        border-radius: $most-used-border-radius;
+        background: #fff;
+        box-shadow: $box-border-shadow;
+    }
+    .teacher-details {
+        margin: 15px 0px 0px 0px;
+        padding: 15px 20px;
+        font-size: calc(2rem - 10px);
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        p {
+            padding: 0px;
+            margin: 0px;
+        }
+        span {
+            color: #828282;
+        }
+    }
+    .teacher-progress {
+        margin: 15px 0px 0px 0px;
+        height: calc(59vh - 170px);
+        overflow: auto;
+    }
+}
+.teacher-student-progress {
+    border-radius: $most-used-border-radius;
+    background: #fff;
+    box-shadow: $box-border-shadow;
+    height: calc(100vh - 120px);
+}
+.big-progress-container {
+    height: calc(100vh - 170px);
+    width: calc(100% - 20px);
+}

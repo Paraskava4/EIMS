@@ -1,0 +1,152 @@
+@import "../../styles/variables";
+
+.Attendance_details_PresentDays {
+    border-radius: $most-used-border-radius;
+    background: #006b0b;
+    color: $color-text-invert;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Attendance_details_Absents {
+    border-radius: $most-used-border-radius;
+    background: #f00;
+    color: $color-text-invert;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Attendance_details_Holidays {
+    border-radius: $most-used-border-radius;
+    background: #860808;
+    color: $color-text-invert;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.month-container {
+    width: 160px;
+    height: 130px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+    margin: 0px 10px 10px 0px !important;
+    text-align: center;
+    border-radius: $most-used-border-radius;
+    background: $color-text-invert;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+.month-container:focus {
+    border-radius: $most-used-border-radius;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.focused {
+    border: 2px solid #000;
+}
+
+.month-container:hover {
+    border-radius: $most-used-border-radius;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.dates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date {
+    width: calc(100% / 7);
+    height: calc(100% / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 11px;
+}
+
+.attendance_wrapper {
+    height: calc(100vh - 360px);
+    overflow: auto;
+}
+
+.personalDetails_table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+}
+
+.personalDetails_table td {
+    padding: 8px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 200px !important; /* Adjust the width as per your requirements */
+}
+
+.personalDetails_table tbody tr td {
+    border: 1px solid #000 !important;
+}
+.personalDetails_table tbody tr td:first-child {
+    color: $label-color !important;
+    width: 0% !important;
+    text-align: center !important;
+}
+
+.absent__badge {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.subject_select_button {
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    width: 100%;
+}
+.subject_select_button_active {
+    border-radius: 10px;
+    background: $color-navigation;
+    color: $color-text-invert;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    width: 100%;
+}
+.subject_select_button:hover {
+    border-radius: 10px;
+    background: $color-navigation;
+    color: $color-text-invert;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    width: 100%;
+}
+
+.Download_Report_Button {
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    background: $button-background;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+}

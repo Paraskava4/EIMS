@@ -1,0 +1,38 @@
+@import "../../../views/styles/variables";
+
+.header__wrapper {
+    width: 50%;
+    text-align: left;
+    cursor: pointer;
+
+    .create_standard {
+        background: $input-background;
+        border-radius: 10px;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 15px 5px 5px;
+
+        @media only screen and (max-width: 382px) {
+            background: $input-background;
+            border-radius: 10px;
+            font-size: 22px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        @media only screen and (min-width: 520px) {
+            background: $input-background;
+            border-radius: 10px;
+            font-size: 22px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    .button_label_name {
+        font-weight: 400;
+        font-size: 20px;
+        color: $label-color;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,35 @@
+.student-detail-content {
+    height: calc(100vh - 110px);
+    overflow: auto;
+    margin: 10px 0px 0px 0px;
+
+    .profile-img {
+        width: 266px;
+        height: 276px;
+        display: block;
+    }
+    @media only screen and (max-width: 575px) {
+        .responsive-image {
+            width: 200px !important;
+            margin: 0px auto !important;
+            display: block;
+        }
+    }
+
+    .detail {
+        font-size: calc(2rem - 10px);
+        font-weight: 400;
+        span {
+            color: #a6a6a6;
+        }
+    }
+
+    .detail-address {
+        border-right: 1px solid #000;
+    }
+    @media only screen and (max-width: 768px) {
+        .detail-address {
+            border-right: none;
+        }
+    }
+}

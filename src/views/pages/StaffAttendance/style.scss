@@ -1,0 +1,115 @@
+@import "../../styles/variables";
+
+.table-content table th {
+    color: $label-color;
+}
+
+.current_primary {
+    width: 55px;
+    height: 72px;
+    border-radius: 10px;
+    padding: 6px 8px 6px 8px;
+    color: $color-text-invert;
+    background-color: $button-background;
+    margin: 0 auto !important;
+}
+.table-content {
+    border: 1px solid;
+    height: 60vh;
+    overflow: auto;
+}
+
+.scroll-month-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table-header {
+    padding: 10px;
+    border: 1px solid;
+    margin-left: auto;
+    text-align: center;
+    border-bottom: none !important;
+    width: 70.3%;
+    @media only screen and (max-width: "1400px") {
+        width: 69.2%;
+    }
+    @media only screen and (max-width: "1199px") {
+        width: 67.8%;
+    }
+    @media only screen and (max-width: "563px") {
+        width: 100%;
+    }
+}
+.table-header-center {
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 210px;
+}
+.scroll-month-arrow {
+    margin: 0 8%;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: $color-text-invert;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.calendar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-arrow {
+    cursor: pointer;
+    width: 11px;
+    height: 19px;
+    margin-right: 3%;
+    color: #000000;
+}
+
+.calendar-date {
+    margin: 0 11%;
+}
+
+.form-check-input {
+    border: 1px solid;
+}
+.staff-button {
+    background-color: $button-background;
+    color: white;
+    width: 210px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0px;
+    padding: 0;
+}
+.staffAttendance_checkbox .form-check-input {
+    background-color: #ffffff;
+    background-image: url("../../../assets/images/Attendance/absent.svg");
+    background-size: 11px;
+    border: 1.5px solid #ff0000;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.staffAttendance_checkbox .form-check-input:focus {
+    box-shadow: none;
+}
+.staffAttendance_checkbox .form-check-input:checked {
+    background-image: url("../../../assets/images/Attendance/present.svg");
+    background-size: 13px;
+    border: 1.5px solid #52c35b;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

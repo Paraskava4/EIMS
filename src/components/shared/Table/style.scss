@@ -1,0 +1,94 @@
+@import "../../../views/styles/variables";
+
+.progress-table {
+    th {
+        border: 1px solid #000 !important;
+    }
+    td {
+        border: 1px solid #000 !important;
+    }
+}
+
+.table {
+    margin-bottom: 0px !important;
+    border-spacing: 0px !important;
+    position: relative;
+
+    .table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    .table-header {
+        position: sticky;
+        top: 0;
+        background-color: $color-text-invert;
+        z-index: 1;
+    }
+
+    .table-body {
+        overflow: auto;
+        height: calc(100% - 30px); /* Adjust the height to leave space for the table header */
+        z-index: 0;
+    }
+
+    .table-body {
+        position: relative;
+    }
+
+    .table_subject_name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    tbody > tr {
+        border-width: 0 !important;
+    }
+
+    th {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 11px 0px;
+        border-right: 1px solid $label-color;
+        border-bottom: 1px solid #000000 !important;
+    }
+    th:last-child {
+        padding: 11px 0px;
+        border-right: none;
+    }
+    .td {
+        border-right: 1px solid #000000;
+        height: 42px;
+        padding: 0px 5px !important;
+        vertical-align: middle !important;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .td:last-child {
+        border-right: none;
+    }
+
+    .tr {
+        border: 1px solid #000000;
+    }
+}
+
+//ProgressTable styles
+
+.subject_row {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.totalMarks_row {
+    background-color: #f4f4f4;
+    color: #a5a5a5;
+    font-size: 15px;
+    font-size: 400;
+}

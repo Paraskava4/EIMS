@@ -1,0 +1,77 @@
+.time-table-container {
+    height: calc(100vh - 170px);
+    .image {
+        border-radius: 5px;
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
+        display: block;
+    }
+}
+
+.academics-content {
+    height: calc(100vh - 170px);
+    overflow: auto;
+    .present-absent-box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        font-size: calc(2rem - 10px);
+        font-weight: 400;
+        margin: 20px 0px 0px 0px;
+        span {
+            color: #fff;
+            font-size: calc(2rem);
+            font-weight: 700;
+        }
+        .present-box {
+            border-radius: 10px;
+            background: #006b0b;
+            padding: 10px 9px;
+        }
+        .absent-box {
+            border-radius: 10px;
+            background: #f00;
+            padding: 10px 5px;
+            padding: 10px 9px;
+        }
+    }
+    .absents-part {
+        height: 100%;
+        position: relative;
+    }
+    @media only screen and (max-width: 767px) {
+        .absents-part {
+            height: 252px !important;
+            position: relative !important;
+            margin-top: 20px !important;
+        }
+    }
+    .absent-card {
+        border-radius: 8px;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+        padding: 15px;
+        font-size: calc(2rem - 13px);
+        margin: 0px 0px 15px 0px;
+    }
+    .absents-content {
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        padding: 0px 2px;
+        padding-right: 14px;
+    }
+    .absent-card-details {
+        color: #000;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+    }
+    .absent-card-details span {
+        color: #f00;
+        font-weight: 500;
+    }
+}

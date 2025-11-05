@@ -1,0 +1,53 @@
+@import "../../../../views/styles/variables";
+
+.modal__title__wrapper {
+    background-color: #ffffff;
+    border: none !important;
+    border-top-left-radius: $most-used-border-radius !important;
+    border-top-right-radius: $most-used-border-radius !important;
+}
+
+.modal__title {
+    font-weight: 600;
+    font-family: "poppins";
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $label-color;
+}
+
+.input-with-icons {
+    position: relative;
+}
+
+.form__input {
+    background-color: $input-background !important;
+    height: 51px !important;
+}
+
+.refresh-icon {
+    position: absolute;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 24px;
+    top: 63px;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.form__button {
+    width: 40%;
+    height: 52px;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    background: $button-background !important;
+    border-radius: 10px !important;
+    font-weight: 500;
+    font-size: 20px;
+}

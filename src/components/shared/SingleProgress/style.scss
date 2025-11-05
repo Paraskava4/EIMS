@@ -1,0 +1,29 @@
+.std-name {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.slider-text {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.std-progress-wrapper {
+    border-radius: 5px;
+    .progress-box {
+        background: #f0f7ff;
+        min-width: 130px;
+        text-align: center;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .progress-box .subject-and-teacher-name {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,7 @@
+@import "../../../views/styles/variables";
+
+.card-layout {
+    border-radius: $most-used-border-radius;
+    box-shadow: $box-border-shadow;
+    background-color: $color-text-invert;
+}

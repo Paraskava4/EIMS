@@ -1,0 +1,8 @@
+.filter-width-resize {
+    width: 450px;
+}
+@media only screen and (max-width: 768px) {
+    .filter-width-resize {
+        width: 311px;
+    }
+}

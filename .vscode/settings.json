@@ -1,0 +1,22 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert",
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontSize": 14,
+    "terminal.integrated.fontWeight": "normal"
+  }
+  

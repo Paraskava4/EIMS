@@ -1,0 +1,95 @@
+@import "../../styles/variables";
+
+.applyLeave-content {
+    height: calc(100vh - 120px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    .apply-leave-container {
+        height: 300px;
+        overflow: auto;
+        padding-bottom: 10px;
+    }
+    .leave-card {
+        max-width: 324px !important;
+        border-radius: $most-used-border-radius;
+        box-shadow: $box-border-shadow;
+        background-color: $color-text-invert;
+        p {
+            padding: 0px;
+            margin: 0px;
+        }
+        .card-header {
+            padding: 10px;
+            .leave-format {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .leave-format span:first-child {
+                color: rgba(0, 0, 0, 0.5);
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .profile-img-and-name {
+                align-items: center;
+                display: flex;
+                color: #000;
+                font-size: 26px;
+                font-weight: 600;
+                div {
+                    width: 42px;
+                    height: 42px;
+                    margin: 10px 10px 0px 0px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 42px;
+                        object-fit: cover;
+                    }
+                }
+            }
+            .approved {
+                color: #60a677;
+                font-weight: 600;
+                border-radius: 10px;
+                background: rgba(140, 216, 165, 0.3);
+                padding: 2px 10px;
+            }
+            .pending {
+                color: #cfa300;
+                font-weight: 600;
+                border-radius: 10px;
+                background: #f0dfa14d;
+                padding: 2px 10px;
+            }
+            .declined {
+                color: #dc3636;
+                font-weight: 600;
+                border-radius: 10px;
+                background: #ebb8b84d;
+                padding: 2px 10px;
+            }
+        }
+        .card-body {
+            background-color: #026b81;
+            text-align: center;
+            font-size: 22px;
+            align-self: center;
+            display: block;
+            span {
+                color: $color-text-invert;
+            }
+        }
+        .card-footer {
+            padding: 10px;
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 18px;
+            font-weight: 400;
+            span {
+                color: rgba(0, 0, 0, 0.5);
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.holidays-container {
+    height: calc(100vh - 110px);
+    overflow: auto;
+    margin: 10px 0px 0px 0px;
+
+    .holiday-card {
+        border: 1px solid #d9d9d9;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 5px;
+        border-right: 4px solid #3c98cc;
+        .card-date {
+            color: #3c98cc;
+            font-weight: 700;
+        }
+    }
+
+    .months-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: calc(100vh - 130px);
+        overflow: auto;
+        position: absolute;
+    }
+    @media only screen and (max-width: 767px) {
+        .months-content {
+            margin: 15px 0px 0px 0px;
+            height: 40vh;
+        }
+    }
+}
